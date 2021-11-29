@@ -18,7 +18,7 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About title="About"/>} />
         <Route path="/teachers" element={<Teachers />} />
-        <Route path="/teachers/:topic/:fname-:lname" element={<Featured />} />
+        <Route path="/teachers/:topic/:name" element={<Featured />} />
         <Route path="/courses/*" element={<Courses />} />
         {/* The default path */}
         <Route path="*" element={<NotFound />} />
